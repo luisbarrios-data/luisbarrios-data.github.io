@@ -10,9 +10,12 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Luis Barrios</a>
-      <div class="collapse navbar-collapse">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Work Experience</a></li>
           <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
@@ -21,38 +24,52 @@
   </nav>
 
   <header class="bg-primary text-white text-center py-5">
-    <h1>Luis Barrios</h1>
-    <p>Data Analyst | SQL, Python, Power BI, Tableau</p>
+    <h1 class="display-4">Luis Barrios</h1>
+    <p class="lead">Transforming data into business insights and financial strategies</p>
+    <p><strong>SQL • Python • Power BI • Tableau • Excel • Looker • VBA • AWS</strong></p>
   </header>
 
-  <section id="about" class="container my-5">
-    <h2>About Me</h2>
-    <p>I am a data analyst with experience in SQL, Python, Power BI, Tableau, and data automation. I hold an M.S. in Computer Management Information Systems with a specialization in Business Analytics from Southern Illinois University Edwardsville, and a B.S. in Finance from Lindenwood University (Cum Laude).</p>
-    <p>Currently, I work as a Workforce Management Analyst at Oncourse Home Solutions, where I support reporting and automation for contact center operations, marketing, and finance. I have also worked as a Teaching Assistant, Field Analyst Intern, and Bilingual Service Representative, which built my skills in communication, analytics, and process optimization.</p>
+  <section id="experience" class="container my-5">
+    <h2>Work Experience</h2>
+    <ul>
+      <li><strong>Workforce Management Analyst – Oncourse Home Solutions</strong> (Jun 2022 – Present)<br>
+        Built dynamic dashboards, automated flows, and reporting processes using SQL, Power BI, Python, Excel, Tableau, and Looker.
+      </li>
+      <li><strong>Teaching Assistant – Southern Illinois University Edwardsville</strong> (Jan 2020 – May 2022)<br>
+        Supported course delivery and student engagement; led workshops for underrepresented groups.
+      </li>
+      <li><strong>Field Analyst Intern – Ascension (The Resource Group)</strong> (Summer 2021)<br>
+        Produced ad hoc reports, conducted data validation, and helped identify cost savings opportunities in healthcare operations.
+      </li>
+      <li><strong>Bilingual Service Representative – Equifax</strong> (May 2019 – Dec 2019)<br>
+        Managed customer service calls, resolved disputes, and collaborated across departments for issue resolution.
+      </li>
+    </ul>
   </section>
 
   <section id="projects" class="container my-5">
     <h2>Projects</h2>
     <ul>
-      <li><strong>Commission Automation System:</strong> Created processes to maintain and minimize failures in legacy systems moving over $400K monthly for 600+ employees.</li>
-      <li><strong>Amazon Connect Telephony Support:</strong> Helped configure new telephony system for contact center operations.</li>
-      <li><strong>Airbnb Data Report:</strong> Developed data mining report with geo visualizations in Tableau on Boston listings.</li>
-      <li><strong>Amazon Reviews Pipeline:</strong> Built streaming data pipeline in GitHub using Kafka, Spark, and Scala.</li>
-      <li><strong>Google Drive Reports:</strong> <a href="https://drive.google.com/drive/folders/1opB_9_ceGwOUmCMS3nTYofMwbfu4S9-C?usp=sharing" target="_blank">View example reports</a></li>
-      <li><strong>GitHub Portfolio:</strong> <a href="https://github.com/luisbarrios-data" target="_blank">github.com/luisbarrios-data</a></li>
+      <li><strong>Commission Automation System:</strong> Streamlined processes for legacy system that distributes over $400K monthly to 600+ employees.</li>
+      <li><strong>Amazon Connect Telephony Support:</strong> Supported setup and integration for a new contact center telephony system.</li>
+      <li><strong>Airbnb Data Report:</strong> Built geo-visualizations using Tableau based on Boston listings.</li>
+      <li><strong>Streaming Pipeline:</strong> Developed a Kafka-Spark-Scala pipeline analyzing Amazon reviews, hosted on GitHub.</li>
+      <li><a href="https://drive.google.com/drive/folders/1opB_9_ceGwOUmCMS3nTYofMwbfu4S9-C?usp=sharing" target="_blank">Example Reports (Google Drive)</a></li>
+      <li><a href="https://github.com/luisbarrios-data" target="_blank">GitHub Repository</a></li>
     </ul>
   </section>
 
   <section id="contact" class="container my-5">
-    <h2>Contact</h2>
+    <h2>Contact Information</h2>
     <p><strong>Email:</strong> <a href="mailto:luisbarrios.data@gmail.com">luisbarrios.data@gmail.com</a></p>
     <p><strong>Phone:</strong> (636) 638-8155</p>
-    <p><strong>Location:</strong> 605 Clara Ave, St. Louis, MO 63112</p>
+    <p><strong>Location:</strong> St. Louis, MO</p>
   </section>
 
   <footer class="bg-dark text-white text-center py-3">
     <p>&copy; 2025 Luis Barrios</p>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
